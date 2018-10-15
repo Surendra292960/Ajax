@@ -1,0 +1,7 @@
+G:\C#.NetPrograms\Ajax\Ajax\bin\Debug\Ajax.exe.config
+G:\C#.NetPrograms\Ajax\Ajax\bin\Debug\Ajax.exe
+G:\C#.NetPrograms\Ajax\Ajax\bin\Debug\Ajax.pdb
+G:\C#.NetPrograms\Ajax\Ajax\obj\Debug\Ajax.csprojAssemblyReference.cache
+G:\C#.NetPrograms\Ajax\Ajax\obj\Debug\Ajax.csproj.CoreCompileInputs.cache
+G:\C#.NetPrograms\Ajax\Ajax\obj\Debug\Ajax.exe
+G:\C#.NetPrograms\Ajax\Ajax\obj\Debug\Ajax.pdb

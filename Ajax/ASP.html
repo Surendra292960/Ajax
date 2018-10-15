@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+    <%
+    If Request.QueryString<>"" Then
+    If Request.QueryString("name")<>", " Then
+    name=Request.QueryString("name")
+    if instr(name,"/")=0 and instr(name,"\")=0 and instr(name,"<")=0 then
+    name1=Request.QueryString("name")(1)
+    name2=Request.QueryString("name")(2)
+    else
+    response.write("Illegal input")
+    response.end
+    end if
+    end if
+    end if
+    %>
+
+    <form action="demo_reqquery2.asp" method="get">
+        First name:
+        <input type="text" name="name" value="<%=name1%>" />
+        <br>
+        Last name:
+        <input type="text" name="name" value="<%=name2%>" />
+        <br>
+        <input type="submit" value="Submit" />
+    </form>
+    <hr>
+    <%
+    If Request.QueryString<>"" Then
+    Response.Write("<p>
+        ")
+        Response.Write("The information received from the form was:")
+        Response.Write("
+    </p><p>
+        ")
+        Response.Write("name=" & name)
+        Response.Write("
+    </p><p>
+        ")
+        Response.Write("The name property's count is: ")
+        Response.Write(Request.QueryString("name").Count)
+        Response.Write("
+    </p><p>
+        ")
+        Response.Write("First name=" & name1)
+        Response.Write("
+    </p><p>
+        ")
+        Response.Write("Last name=" & name2)
+        Response.Write("
+    </p>")
+    end if
+    %>
+</body>
+</html>

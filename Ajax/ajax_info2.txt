@@ -1,0 +1,4 @@
+﻿The XMLHttpRequest Object
+The getAllResponseHeaders() function returns all the header information of a resource, like length, server-type, content-type, last-modified, etc:
+
+date: Mon, 15 Oct 2018 11:16:02 GMT content-encoding: gzip etag: "15bfdeee0ffd21:0" last-modified: Tue, 18 Jul 2017 16:14:29 GMT server: ECS (nag/999A) x-frame-options: SAMEORIGIN x-powered-by: ASP.NET vary: Accept-Encoding x-cache: HIT content-type: text/plain status: 304 cache-control: public,max-age=14400,public accept-ranges: bytes content-length: 245
